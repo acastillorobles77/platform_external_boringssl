@@ -565,6 +565,8 @@ cc_binary {
     srcs: [
         "src/util/fipstools/test_fips.c",
     ],
+}
+    
 // Rust bindings
 rust_bindgen {
     name: "libbssl_sys_raw",
